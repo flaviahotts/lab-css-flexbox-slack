@@ -15,6 +15,11 @@ nav grey: #5b5e6d;
     color: #5b5e6d;
   }
 
+  img {
+    width: 70%;
+    background-color: #f4f3f4;
+    margin-left: 50px;
+  }
   .nav-bar {
     display: flex;
     border: 1px solid red;
@@ -34,13 +39,56 @@ nav grey: #5b5e6d;
   .home {
     width: 300px;
     height: 200px;
+    margin-left: 20px;
   }
 
   .get-started-btn {
     background-color: #192592;
     color: white;
     border-radius: 4px;
+    border: 1px solid;
     padding: 20px;
     width: 100%;
+  }
+
+  .discovery-btn {
+    color: #192592;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 20px;
+  }
+
+  .email-address {
+    border-radius: 4px;
+    padding: 20px;
+    width: 88%;
+    border: 1px solid #5b5e6d;
+    margin-bottom: 20px;
+  }
+
+  .try-it {
+    text-align: center;
+  }
+
+  #title {
+    font-weight: bolder;
+  }
+
+  .iso-slack-logo {
+    width: 100px;
+    height: 90px;
+    background-color: white;
+    margin-left: 10px;
+  }
+
+  .us-flag {
+    width: 10px;
+    height: 10px;
+  }
+
+  .discover {
+    background-color: #f4f3f4;
   }
 }
