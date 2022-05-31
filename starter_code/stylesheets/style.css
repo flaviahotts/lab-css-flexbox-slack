@@ -5,3 +5,42 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    color: #2c303f;
+  }
+
+  p {
+    color: #5b5e6d;
+  }
+
+  .nav-bar {
+    display: flex;
+    border: 1px solid red;
+    color: #5b5e6d;
+  }
+
+  .slack-logo {
+    width: 70px;
+    height: 40px;
+    margin-left: 20px;
+  }
+
+  .sidebar {
+    margin-left: 50px;
+  }
+
+  .home {
+    width: 300px;
+    height: 200px;
+  }
+
+  .get-started-btn {
+    background-color: #192592;
+    color: white;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+  }
+}
